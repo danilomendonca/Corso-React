@@ -1,0 +1,23 @@
+.Clock-Buttons {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.Clock-Buttons button{
+  background: #eee;
+  border: 1px solid #000;
+  border-radius: 0.25em;
+  margin-left: calc(16.666% - 1em - 1px);
+  margin-right: calc(16.666% - 1em - 1px);
+  width: 2em;
+  height: 2em;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.Clock-Buttons button:active{
+  background: #999;
+}
