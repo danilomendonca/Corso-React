@@ -1,0 +1,31 @@
+.Clock-Outer {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  background: #fff;
+  border: 0.15em solid #000;
+  border-radius: 0.25em;
+}
+
+.Clock-Frame {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 4em;
+  font-family: sans-serif;
+  margin: 0.15em;
+  padding: 0.2em;
+  color: #fff;
+  background: #000;
+  border-radius: 0.25em;
+}
+
+.Clock-Frame:before{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
